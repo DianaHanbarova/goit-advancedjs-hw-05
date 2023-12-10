@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch",
-    "build": "vite build"
+    "start": "web-dev-server --node-resolve --open --watch"
   },
   "repository": {
     "type": "git",
