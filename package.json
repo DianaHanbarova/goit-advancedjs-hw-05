@@ -1,24 +1,19 @@
 {
-  "name": "goit-advancedjs-hw-01",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "goit-advancedjs-hw-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/goit-advancedjs-hw-01/",
-    "preview": "vite preview"
+    "start": "web-dev-server --node-resolve --open --watch"
   },
-  "devDependencies": {
-    "glob": "^8.1.0",
-    "vite": "^4.0.5"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaHanbarova/goit-advancedjs-hw-05.git"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "keywords": [],
+  "author": "Diana Hanbarova <dianaganbarova@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "@vimeo/player": "^2.20.1",
-    "lodash.throttle": "^4.1.1",
-    "simplelightbox": "^2.14.2",
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
   }
 }
